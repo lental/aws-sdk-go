@@ -4,8 +4,8 @@
 package kinesis
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/kinesis"
+	"github.com/lental/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/lental/aws-sdk-go/service/kinesis"
 	"github.com/gucumber/gucumber"
 )
 

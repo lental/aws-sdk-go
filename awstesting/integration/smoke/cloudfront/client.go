@@ -4,8 +4,8 @@
 package cloudfront
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/cloudfront"
+	"github.com/lental/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/lental/aws-sdk-go/service/cloudfront"
 	"github.com/gucumber/gucumber"
 )
 

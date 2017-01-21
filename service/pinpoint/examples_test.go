@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/pinpoint"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/session"
+	"github.com/lental/aws-sdk-go/service/pinpoint"
 )
 
 var _ time.Duration

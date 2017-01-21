@@ -4,8 +4,8 @@
 package elastictranscoder
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/elastictranscoder"
+	"github.com/lental/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/lental/aws-sdk-go/service/elastictranscoder"
 	"github.com/gucumber/gucumber"
 )
 

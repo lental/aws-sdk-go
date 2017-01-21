@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws/awsutil"
+	"github.com/lental/aws-sdk-go/aws/request"
 )
 
 const opCreateCluster = "CreateCluster"
@@ -5340,7 +5340,7 @@ type LogConfiguration struct {
 	//
 	// If you have a custom driver that is not listed above that you would like
 	// to work with the Amazon ECS container agent, you can fork the Amazon ECS
-	// container agent project that is available on GitHub (https://github.com/aws/amazon-ecs-agent)
+	// container agent project that is available on GitHub (https://github.com/lental/amazon-ecs-agent)
 	// and customize it to work with that driver. We encourage you to submit pull
 	// requests for changes that you would like to have included. However, Amazon
 	// Web Services does not currently provide support for running modified copies
@@ -7182,7 +7182,7 @@ type VersionInfo struct {
 	_ struct{} `type:"structure"`
 
 	// The Git commit hash for the Amazon ECS container agent build on the amazon-ecs-agent
-	//  (https://github.com/aws/amazon-ecs-agent/commits/master) GitHub repository.
+	//  (https://github.com/lental/amazon-ecs-agent/commits/master) GitHub repository.
 	AgentHash *string `locationName:"agentHash" type:"string"`
 
 	// The version number of the Amazon ECS container agent.

@@ -3,12 +3,12 @@
 package cloudwatchevents
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/client"
+	"github.com/lental/aws-sdk-go/aws/client/metadata"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws/signer/v4"
+	"github.com/lental/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 // Amazon CloudWatch Events helps you to respond to state changes in your AWS

@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go/aws/credentials/endpointcreds"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/lental/aws-sdk-go/aws/credentials/endpointcreds"
+	"github.com/lental/aws-sdk-go/aws/request"
 	"github.com/stretchr/testify/assert"
 )
 

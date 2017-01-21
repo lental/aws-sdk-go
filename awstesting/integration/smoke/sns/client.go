@@ -4,8 +4,8 @@
 package sns
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/sns"
+	"github.com/lental/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/lental/aws-sdk-go/service/sns"
 	"github.com/gucumber/gucumber"
 )
 

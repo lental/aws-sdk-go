@@ -3,12 +3,12 @@
 package sqs
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/client"
+	"github.com/lental/aws-sdk-go/aws/client/metadata"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws/signer/v4"
+	"github.com/lental/aws-sdk-go/private/protocol/query"
 )
 
 // Welcome to the Amazon Simple Queue Service API Reference. This section describes

@@ -9,9 +9,9 @@
 package wafregionaliface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/waf"
-	"github.com/aws/aws-sdk-go/service/wafregional"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/service/waf"
+	"github.com/lental/aws-sdk-go/service/wafregional"
 )
 
 // WAFRegionalAPI provides an interface to enable mocking the

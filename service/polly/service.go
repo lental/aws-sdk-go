@@ -3,12 +3,12 @@
 package polly
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/client"
+	"github.com/lental/aws-sdk-go/aws/client/metadata"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws/signer/v4"
+	"github.com/lental/aws-sdk-go/private/protocol/restjson"
 )
 
 // Amazon Polly is a web service that makes it easy to synthesize speech from

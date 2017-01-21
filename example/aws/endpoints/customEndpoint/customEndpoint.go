@@ -3,12 +3,12 @@
 package main
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/endpoints"
+	"github.com/lental/aws-sdk-go/aws/session"
+	"github.com/lental/aws-sdk-go/service/dynamodb"
+	"github.com/lental/aws-sdk-go/service/s3"
+	"github.com/lental/aws-sdk-go/service/sqs"
 )
 
 func main() {

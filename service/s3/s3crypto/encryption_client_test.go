@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/awstesting/unit"
+	"github.com/lental/aws-sdk-go/service/kms"
+	"github.com/lental/aws-sdk-go/service/s3"
+	"github.com/lental/aws-sdk-go/service/s3/s3crypto"
 )
 
 func TestDefaultConfigValues(t *testing.T) {

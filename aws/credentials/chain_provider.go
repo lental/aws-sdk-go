@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/lental/aws-sdk-go/aws/awserr"
 )
 
 var (

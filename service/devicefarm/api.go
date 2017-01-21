@@ -6,8 +6,8 @@ package devicefarm
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws/awsutil"
+	"github.com/lental/aws-sdk-go/aws/request"
 )
 
 const opCreateDevicePool = "CreateDevicePool"

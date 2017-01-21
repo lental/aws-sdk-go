@@ -9,8 +9,8 @@
 package healthiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/health"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/service/health"
 )
 
 // HealthAPI provides an interface to enable mocking the

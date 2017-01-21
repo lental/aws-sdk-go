@@ -9,8 +9,8 @@
 package cloudfrontiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cloudfront"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/service/cloudfront"
 )
 
 // CloudFrontAPI provides an interface to enable mocking the

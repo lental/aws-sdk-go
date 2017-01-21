@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http/httputil"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/client/metadata"
+	"github.com/lental/aws-sdk-go/aws/request"
 )
 
 // A Config provides configuration to a service client instance.

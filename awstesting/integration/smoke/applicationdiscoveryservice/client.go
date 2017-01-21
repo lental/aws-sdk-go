@@ -4,9 +4,9 @@
 package applicationdiscoveryservice
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/applicationdiscoveryservice"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/lental/aws-sdk-go/service/applicationdiscoveryservice"
 	"github.com/gucumber/gucumber"
 )
 

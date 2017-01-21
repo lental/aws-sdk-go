@@ -4,10 +4,10 @@
 package s3crypto
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/lental/aws-sdk-go/aws"
+	"github.com/lental/aws-sdk-go/aws/session"
+	"github.com/lental/aws-sdk-go/service/s3"
+	"github.com/lental/aws-sdk-go/service/s3/s3crypto"
 
 	"github.com/gucumber/gucumber"
 )

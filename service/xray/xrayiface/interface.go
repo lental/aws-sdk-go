@@ -9,8 +9,8 @@
 package xrayiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/xray"
+	"github.com/lental/aws-sdk-go/aws/request"
+	"github.com/lental/aws-sdk-go/service/xray"
 )
 
 // XRayAPI provides an interface to enable mocking the
